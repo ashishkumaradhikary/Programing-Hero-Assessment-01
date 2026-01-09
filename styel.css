@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
+    width: 1600px;
+    
+    margin: auto;
 }
 
 /* Navbar Section */
@@ -9,6 +12,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 90px;
     
 }
 
@@ -40,4 +44,100 @@ body{
 .navbar .btn button a {
     text-decoration: none;
     color: white;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-image: url(./Assets/hero-bg.png);
+    height: 675px;
+    text-align: center;
+    padding: 115px 120px 180px;
+    background-repeat: no-repeat;
+    
+}
+
+.hero .top-btn button{
+    height: 35px;
+    width: 230px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+}
+.hero .top-btn button:hover{
+    background-color: #f95555;
+}
+.hero .top-btn button a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #469165;
+}
+.hero .top-btn button a:hover{
+    color: white;
+}
+.hero h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-bottom: 0px;
+    color: white;
+    margin-top: 15px;
+}
+.hero h2 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #30B868;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.hero p {
+    font-family: sans-serif;
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+}
+.hero .hero-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero .hero-btn .left-btn button {
+    height: 40px;
+    width: 250px;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.hero .hero-btn .left-btn button:hover{
+    background-color: #f95555;
+}
+
+.hero .hero-btn .left-btn button a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.hero .hero-btn .right-btn button {
+    height: 40px;
+    width: 250px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.hero .hero-btn .right-btn button:hover{
+    background-color: #f95555;
+}
+
+.hero .hero-btn .right-btn button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
 }
