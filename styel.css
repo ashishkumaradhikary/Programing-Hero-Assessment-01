@@ -51,11 +51,10 @@ body{
 
 .hero {
     background-image: url(./Assets/hero-bg.png);
-    height: 675px;
     text-align: center;
     padding: 115px 120px 180px;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
+    margin-bottom: 50px;
 }
 
 .hero .top-btn button{
@@ -140,4 +139,68 @@ body{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 16px;
+}
+
+
+/* Note Section */
+
+.note {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.note .note-heading h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #001931;
+    text-align: center;
+}
+.note .note-heading p{
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #001931;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.note .note-card-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.note .note-card-section .note-card {
+    text-align: center;
+    height: 300px;
+    width: 320px;
+    padding: 16px;
+    background-color: #fff2f2; 
+}
+.note .note-card-section .note-card:hover{
+    background-color: aliceblue;
+}
+
+.note .note-card-section .note-card .note-card-image{
+    background-color: #f95555;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    margin: auto; 
+    margin-top: 30px;
+}
+
+.note .note-card-section .note-card .note-card-image img {
+    margin-top: 15px;
+}
+
+.note .note-card-section .note-card h3 {
+    font-family: sans-serif;
+    color: #001931;
+    font-size: 25px;
+}
+.note .note-card-section .note-card p {
+    font-family: sans-serif;
+    width: 250px;
+    text-align: center;
+    line-height: 30px;
+    margin: auto;
+    margin-top: -10px;
 }
