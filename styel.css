@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navbar Section */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.navbar .menu ul li {
+    display: inline;
+    align-items: center;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar .btn button {
+    height: 40px;
+    width: 150px;
+    background-color: #469165;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar .btn button:hover{
+    background-color: #f95555;
+}
+
+.navbar .btn button a {
+    text-decoration: none;
+    color: white;
+}
